@@ -1,3 +1,9 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+/* Override System.css body background with a soft solid color (no image) */
+body {
+	/* Soft neutral that pairs with System.css white windows */
+	background: rgba(0, 0, 0, 0.2);
+}

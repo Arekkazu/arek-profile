@@ -39,6 +39,8 @@
 		"vite": "^7.1.10"
 	},
 	"dependencies": {
+		"@icons-pack/svelte-simple-icons": "^6.5.0",
+		"@lucide/svelte": "^0.553.0",
 		"@sakun/system.css": "^0.1.11"
 	}
 }
