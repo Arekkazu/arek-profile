@@ -9,7 +9,8 @@
 		SiFlask,
 		SiExpress,
 		SiLinux,
-		SiGnubash
+		SiGnubash,
+    SiSpringboot,
 	} from '@icons-pack/svelte-simple-icons';
 	const skills = [
 		{ name: 'Rust', icon: SiRust, color: '#DEA584' },
@@ -21,7 +22,8 @@
 		{ name: 'Svelte', icon: SiSvelte, color: '#FF3E00' },
 		{ name: 'Flask', icon: SiFlask, color: '#000000' },
 		{ name: 'Linux', icon: SiLinux, color: '#000000' },
-		{ name: 'Bash', icon: SiGnubash, color: '#000000' }
+		{ name: 'Bash', icon: SiGnubash, color: '#000000' },
+    { name: 'Spingboot', icon: SiSpringboot, color: 'green' }
 	];
 
 	$inspect(skills);
@@ -64,7 +66,7 @@
 			{#each skills as skill}
 				<div class="flex items-center gap-2 rounded-md bg-slate-800/60 px-2 py-1">
 					<skill.icon color={skill.color} />
-					<span class="text-sm text-black">{skill.name}</span>
+					<span class="text-sm text-white">{skill.name}</span>
 				</div>
 			{/each}
 		</div>
